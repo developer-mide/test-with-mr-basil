@@ -10,7 +10,7 @@ pipeline{
                 echo "Fetched from Github successfully"
             }
             failure{
-                echo "Unable to fetch"
+                echo "Unable to fetch from tfgui"
             }
           }
        }
